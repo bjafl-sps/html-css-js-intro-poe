@@ -81,3 +81,6 @@ body {
 .textCurrency {
     color: #a38d6d;
 }
+.textCurrency:hover {
+    background: #1ba29b;
+}
