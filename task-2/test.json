@@ -1,0 +1,93 @@
+{
+    "store": {
+      "id": "store_12345",
+      "name": "Tech Gadgets & More",
+      "lastUpdated": "2025-01-03T10:30:00Z",
+      "metadata": {
+        "version": "2.1",
+        "region": "North America",
+        "currency": "USD"
+      },
+      "inventory": {
+        "categories": [
+          {
+            "id": "cat_electronics",
+            "name": "Electronics",
+            "products": [
+              {
+                "id": "prod_789",
+                "name": "Wireless Earbuds Pro",
+                "sku": "WEP-2025-BLK",
+                "price": 129.99,
+                "description": "High-fidelity wireless earbuds with active noise cancellation",
+                "specifications": {
+                  "color": "Black",
+                  "batteryLife": "6 hours",
+                  "warranty": "1 year",
+                  "features": [
+                    "Active Noise Cancellation",
+                    "Transparency Mode",
+                    "Water Resistant",
+                    "Touch Controls"
+                  ]
+                },
+                "inventory": {
+                  "inStock": 245,
+                  "reserved": 12,
+                  "threshold": 50
+                },
+                "ratings": {
+                  "average": 4.7,
+                  "count": 1283,
+                  "distribution": {
+                    "5": 876,
+                    "4": 298,
+                    "3": 67,
+                    "2": 24,
+                    "1": 18
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "stats": {
+          "totalProducts": 1567,
+          "lowStock": 23,
+          "outOfStock": 5
+        }
+      },
+      "settings": {
+        "shipping": {
+          "domestic": {
+            "standard": {
+              "price": 5.99,
+              "estimatedDays": "3-5"
+            },
+            "express": {
+              "price": 15.99,
+              "estimatedDays": "1-2"
+            }
+          },
+          "international": {
+            "standard": {
+              "price": 24.99,
+              "estimatedDays": "7-14"
+            },
+            "express": {
+              "price": 49.99,
+              "estimatedDays": "3-5"
+            }
+          }
+        },
+        "tax": {
+          "base": 0.0825,
+          "variations": {
+            "CA": 0.0925,
+            "NY": 0.0885,
+            "TX": 0.0825
+          }
+        }
+      }
+    }
+  }
